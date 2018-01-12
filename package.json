@@ -1,0 +1,25 @@
+{
+  "name": "kafka-message-length",
+  "version": "0.1.0",
+  "description": "returns number of message in a given kafka topic",
+  "main": "index.js",
+  "bin": "./cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "kafka"
+  ],
+  "engines": {
+    "node": ">=8"
+  },
+  "repository": "github:hyperlink/kafka-message-length",
+  "author": "Xiaoxin Lu <javascript@yahoo.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "commander": "^2.13.0",
+    "humanize-number": "0.0.2",
+    "kafka-node": "^2.3.1"
+  }
+}
